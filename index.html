@@ -1,34 +1,65 @@
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <title>Resume Using Tags</title>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic input tags</title>
 </head>
-
 <body>
+<form action="/#successfully-submited"> <center>
+    <h1>Technical School admission Form</h1><hr>  
+    <table> 
+   
+        <tbody>
+     <tr>
+    <td><label for="name">Applicant's Full Name: </label></td>
+    <td><input type="text" placeholder="write your Name" required><br><br></td>
+    </tr>
+<tr>
+    <td><label for="date">Date of Birth:</label></td>
+    <td><input type="date" placeholder=""><br><br></td>
+</tr>
+<tr>
+    <td><label for="email"> Email Address:</label></td>
+    <td><input type="email" placeholder="email"><br><br></td>
+</tr>
+   </tr> <td><label for="number"> Mobile Number</label></td>
+    <td><input type="number"><br><br></td>
+    </tr>
+
+   <tr> <td><label for=" password">Password:</label> </td>
+    <td><input type="password" placeholder="Password" required><br><br></td>
     
-    <center>
-       <img src="photo.jpeg"  alt="_image" height="200" style="float: right;">
-        <h1>  Gauri Sanjay Bhoyar </h1>
-        <h4><b>Email :</b> bhoyargauri717@gmail.com | <b> Contact</b> : 9766951168 | <b>Address</b> : Paratwada,
-            Maharashtra </h4>
-        <hr>
-    </center>
-   <h3> <p> <b><u>Career Objective</u> </b> : Motivated BCA graduate with a strong foundation in Java, C++, and Python,<br>
-         and hands-on experience in web development through an internship.<br> 
-         Seeking to build a career as a Full Stack
-        Developer, with a focus on continuous learning and<br> writing efficient, scalable code. <br></p>
-    <b><u>Education</u></b> :<b> Bachelor of Computer Applications (BCA)</b><br>
-    Shri Shivaji Science College | CGPA: 6.5 <br><br>
-    <b>12th Standard (HSC)</b><br>
-    Gurukul Public School and College, Achalpur | 71% <br><br>
-    <b>10th Standard (SSC)</b><br>
-    Subodh High School, Achalpur | 78% <br><br>
+    <tr><td><label for="address">Address</label></td>
+    <td><input type="text" placeholder=""><br><br></td></tr>
 
-    <u><b>Skills</b></u> : <br>
-    Programming Languages: <ul> <li>C++ </li> <li> Core Java </li> <li> Python </li> </ul><br>
-    Web Technologies: <li> HTML</li>  <li>CSS </li>
-</h3>
+    <tr><td><label for="education"> Highest Level of Education Completed</label></td>
+    <td><select name="education"><br><br>
+        <option value="">---SELECT---</option><br><br>
+        <option value="Highest">Highest School Diploma</option>
+        <option value="associate">Bachelor's Degree</option>
+        <option value="bachelor">Master's Degree</option>
+        <option value="">Other</option> <br><br>
+    </select><br><br></tr>
+
+    <tr><td><label for="program"> Intended Program of Study</label></td>
+    <td><select name="program">
+        <option value="">---SELECT---</option><br><br>
+        <option value="mechanical">Mechanical Engineering</option>
+        <option value="associate">Electrical Engineering</option>
+        <option value="bachelor">Computer Science</option></td></tr>
+        
+    </select><br><br>
+          
+        <tr><td><label for="exp"> Previous Work Experince</label>
+       <td> <textarea  rows="3" placeholder="enter your experince"></textarea><br><br></td></tr>
+       <tr> <br><br>
+    <td><button type="submit">submit</button></td>
+    </tr>
+</tbody>
+</table>
+</center>
+</form>
+    
 </body>
-
 </html>
